@@ -50,7 +50,7 @@ dummyHelp s = case s of
     "botsnack"    -> "botsnack. Feeds the bot a snack"
     "get-shapr"   -> "get-shapr. Summon shapr instantly"
     "shootout"    -> "shootout. The debian language shootout"
-    "faq"         -> "faq. Answer frequently asked questions about Haskell"
+    "faq"         -> "faq. Link to FAQ on wiki."
     "googleit"    -> "letmegooglethatforyou."
     "hackage"     -> "find stuff on hackage"
     _             -> "I'm sorry Dave, I'm afraid I don't know that command"
@@ -71,7 +71,7 @@ dummylst =
     ,("botsnack"   , const ":)")
     ,("get-shapr"  , const "shapr!!")
     ,("shootout"   , const "http://benchmarksgame.alioth.debian.org/")
-    ,("faq"        , const "The answer is: Yes! Haskell can do that.")
+    ,("faq"        , const "https://wiki.haskell.org/FAQ")
     ,("googleit"   , lookupGoogle)
     ,("hackage"    , lookupHackage)
     ,("thanks"     , const "you are welcome")
