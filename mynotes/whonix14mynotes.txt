@@ -1,0 +1,2 @@
+My notes to make this bot work in Whonix 14.
+
